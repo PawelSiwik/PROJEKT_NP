@@ -1,19 +1,10 @@
 #ifndef DISHESLIST_HPP
 #define DISHESLIST_HPP
+#define	 LICZBA_DAN 20
+using namespace std;
 
-class Dish
-{
-public:
-	int number;
-	string name;
-	double price;
-};
-
-class DishesList
-{
-public:
-	auto getDishes();
-};
+class Dish;
+class DishesList;
 
 #endif
 

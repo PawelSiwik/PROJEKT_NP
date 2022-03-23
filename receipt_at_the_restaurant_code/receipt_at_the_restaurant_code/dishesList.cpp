@@ -6,10 +6,18 @@
 
 using namespace std;
 
+class Dish
+{
+public:
+	int number;
+	string name;
+	double price;
+};
 
 
 class DishesList
 {
+public:
 	auto getDishes() {
 		Dish danie[LICZBA_DAN];
 		danie[0].number = 1;
@@ -93,6 +101,6 @@ class DishesList
 		danie[19].price = 60.00;
 
 
-		return danie;
+		return ;
 	}
 };
