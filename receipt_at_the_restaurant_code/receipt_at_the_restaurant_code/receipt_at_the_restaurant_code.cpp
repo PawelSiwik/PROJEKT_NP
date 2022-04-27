@@ -1,16 +1,19 @@
 ﻿#include <iostream>
 #include <string>
 #include <vector>
+#include <windows.h>
+#include <cstdlib>
 #include "dishesList.h"
 #include "ordersMid.h"
+
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "");
 	OrderColector ordersDoingthing;
-	int navigator = 5;
-	while (navigator != 4) {
+	char navigator = '0';
+	while (navigator != '4') {
 		cout << "=============menu============" << endl
 			<< "1.Stwórz nowe zamówienie" << endl
 			<< "2.Otwórz istniejące zamóienie" << endl
@@ -21,21 +24,27 @@ int main()
 
 		switch (navigator)
 		{
-		case 1:
+		case '1':
+			system("cls");
 			ordersDoingthing.addOrder();
 			break;
-		case 2:
+		case '2':
+			system("cls");
 			ordersDoingthing.ordersView();
 			break;
-		case 3:
+		case '3':
 			break;
-		case 4:
+		case '4':
+			system("cls");
 			cout << "koniec aplikacji" << endl;
+			Sleep(2000);
 			break;
 		default:
+			system("cls");
 			cout << "zła opcja " << endl;
+			Sleep(3000);
 			break;
 		}
-
+		system("cls");
 	}
 }

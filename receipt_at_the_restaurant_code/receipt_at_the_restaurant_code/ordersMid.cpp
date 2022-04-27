@@ -8,15 +8,15 @@ void Orders::newOeder() {
 		vector <Dish> dishes = listOfDishes.getDishes();
 		unsigned int navigator2 = 100;
 		int lp = 1;
-		while (navigator2 != 99)
+		while (navigator2 != 4294967295)
 		{
-			cout << "podaj numer dania lup wpisz 100 jeœli chcesz zakoñczyæ" << endl;
+			cout << "podaj numer dania lup wpisz 0 jeœli chcesz zakoñczyæ" << endl;
 			cin >> navigator2;
 			navigator2--;
-			if (navigator2 > 19 && navigator2 != 99) {
+			if (navigator2 > 19 && navigator2 != 4294967295) {
 				cout << "b³êdna liczba" << endl;
 			}
-			else if (navigator2 == 99) {
+			else if (navigator2 == 4294967295) {
 				cout << "koniec" << endl;
 			}
 			else {
@@ -58,19 +58,17 @@ void OrderColector::ordersView() {
 	}
 }
 
-void OrderColector::editionOrder() {
+void OrderColector::editionOrder()  {
 	int orderNmberItem;
 	Orders ordersObject;
 	cout << "podaj numer zamówienia do edycji ";
 	cin >> orderNmberItem;
-	for (Orders item1 : orderColection) {
-		if (item1.orderNouber == orderNmberItem) {
-			ordersObject = item1;
-		}
-	}
+	orderNmberItem--;
+	ordersObject = orderColection[orderNmberItem];
 	 
 	cout << "Numer zamówienia: " << ordersObject.orderNouber << ", na stó³ nr.: " << ordersObject.teableNumber << endl;
 		for (Order item2 : ordersObject.order) {
 			cout << item2.dishNumber << " " << item2.dishName << " " << item2.price << " z³" << endl;
 		}
+
 }
