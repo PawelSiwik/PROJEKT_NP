@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kacperek\Documents\GitHub\PROJEKT_NP\receipt_at_the_restaurant_code\Bin\receipt_at_the_restaurant_code.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kacperek\Documents\GitHub\PROJEKT_NP\receipt_at_the_restaurant_code\Bin\receipt_at_the_restaurant_unit_tests.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

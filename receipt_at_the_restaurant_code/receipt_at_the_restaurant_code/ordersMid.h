@@ -1,6 +1,9 @@
 #ifndef ORDERSMID_H
 #define ORDERSMID_H
 
+#include "dishesList.h"
+#include <vector>
+
 using namespace std;
 
 class Order
@@ -43,7 +46,7 @@ public:
 	int anyNumber = 1;
 	int ordersSum = 0;
 	vector <Orders> orderColection;
-	void addOrder();
+	void addOrder(Orders orders);
 	void ordersView();
 	void editionOrder();
 };

@@ -26,14 +26,9 @@ void Orders::newOeder() {
 		}
 	}
 
-void OrderColector::addOrder() {
-	int teableNumber1, orderNumber1;
-	orderNumber1 = anyNumber;
-	anyNumber++;
-	cout << "podaj nr stolika ";
-	cin >> teableNumber1;
-	orderColection.push_back(Orders(teableNumber1, orderNumber1, 1));
-	orderColection[ordersSum].newOeder();
+void OrderColector::addOrder(Orders orders) {
+	orderColection.push_back(orders);
+	//orderColection[ordersSum].newOeder();
 	ordersSum++;
 }
 

@@ -22,8 +22,11 @@ int main()
 		switch (navigator)
 		{
 		case 1:
-			ordersDoingthing.addOrder();
+		{	
+			Orders orders(1, 1, true);
+			ordersDoingthing.addOrder(orders);
 			break;
+		}
 		case 2:
 			ordersDoingthing.ordersView();
 			break;
