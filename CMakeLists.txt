@@ -11,7 +11,4 @@ add_executable(PROJEKT_NP
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/dishesList.h
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/ordersMid.cpp
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/ordersMid.h
-       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.cpp
-       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj
-       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj.filters
-       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj.user)
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.cpp)
