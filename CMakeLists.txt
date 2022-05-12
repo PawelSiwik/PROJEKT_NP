@@ -4,14 +4,21 @@ project(PROJEKT_NP)
 
 set(CMAKE_CXX_STANDARD 14)
 
+
 include_directories(receipt_at_the_restaurant_code)
 
+include_directories(receipt_at_the_restaurant_code)
 add_executable(PROJEKT_NP
      receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/dishesList.cpp
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/dishesList.h
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/ordersMid.cpp
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/ordersMid.h
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.cpp
-        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj.filters
-       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj.user)
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/receipt_at_the_restaurant_code.vcxproj.user
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_unit_tests/pch.cpp
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_unit_tests/pch.h
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_unit_tests/receipt_at_the_restaurant_unit_tests.cpp
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_unit_tests/receipt_at_the_restaurant_unit_tests.vcxproj
+       receipt_at_the_restaurant_code/receipt_at_the_restaurant_unit_tests/receipt_at_the_restaurant_unit_tests.vcxproj.filters)
