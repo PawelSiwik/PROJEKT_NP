@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(receipt_at_the_restaurant_code)
 
-include_directories(receipt_at_the_restaurant_code)
+include_directories(receipt_at_the_restaurant_unit_tests)
 add_executable(PROJEKT_NP
      receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/dishesList.cpp
        receipt_at_the_restaurant_code/receipt_at_the_restaurant_code/dishesList.h
