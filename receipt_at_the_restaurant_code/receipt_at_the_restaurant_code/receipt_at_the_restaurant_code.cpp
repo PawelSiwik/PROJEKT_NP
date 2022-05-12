@@ -17,6 +17,8 @@ int main()
 			<< "3.Zamknij rachunek" << endl
 			<< "4.Wyjście" << endl;
 
+		bl
+
 		cin >> navigator;
 
 		switch (navigator)
