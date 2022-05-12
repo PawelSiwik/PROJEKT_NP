@@ -1,7 +1,7 @@
 cTest_minimum_required(VERSION 3.8)
 project(PROJEKT_NP)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CTEST_CXX_STANDARD 14)
 
 include_directories(receipt_at_the_restaurant_unit_tests)
 
