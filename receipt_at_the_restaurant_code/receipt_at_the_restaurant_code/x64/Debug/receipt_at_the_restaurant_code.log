@@ -1,1 +1,7 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(440,5): error MSB8020: Nie można odnaleźć narzędzi kompilacji dla Visual Studio 2019 (zestaw narzędzi platformy = „v142”). Aby wykonać kompilację przy użyciu narzędzi kompilacji v142, zainstaluj narzędzia kompilacji Visual Studio 2019. Możesz też wykonać aktualizację do najnowszych narzędzi programu Visual Studio, wybierając menu Projekt lub klikając prawym przyciskiem myszy rozwiązanie, a następnie wybierając polecenie „Wskaż ponownie rozwiązanie...”.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: Katalog Output nie kończy się ukośnikiem. To wystąpienie kompilacji doda ukośnik, ponieważ jest on niezbędny, aby możliwa była poprawna ocena katalogu Output.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (receipt_at_the_restaurant_unit_tests.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  ordersMid.cpp
+  receipt_at_the_restaurant_code.cpp
+  dishesList.cpp
+  Generowanie kodu...
+  receipt_at_the_restaurant_code.vcxproj -> C:\Users\siwik\OneDrive\Pulpit\Pojekt\PROJEKT_NP\receipt_at_the_restaurant_code\Bin\receipt_at_the_restaurant_code.exe

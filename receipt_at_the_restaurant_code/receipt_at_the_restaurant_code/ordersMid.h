@@ -6,47 +6,43 @@
 
 using namespace std;
 
-class Order
+class OrderElement
 {
 public:
 
 	int lp;
-	int dishNumber;
 	double price;
 	string dishName;
 
-	Order(int lp1, int dishNumber1, double price1, string dishName1) {
+	OrderElement(int lp1, double price1, string dishName1) {
 		lp = lp1;
-		dishNumber = dishNumber1;
 		price = price1;
 		dishName = dishName1;
 	}
-
+	OrderElement() {};
 };
 
-class Orders
+class OrderElements
 {
 public:
-	DishesList listOfDishes;
-	vector <Order> order;
+	vector <OrderElement> order;
 	int teableNumber;
 	int orderNouber;
 	bool orderCheak;
-	void newOeder();
-	Orders(int teableNumber1, int orderNumber1, bool orderCheak1) {
+	OrderElements(int teableNumber1, int orderNumber1, bool orderCheak1) {
 		orderNouber = orderNumber1;
 		teableNumber = teableNumber1;
 		orderCheak = orderCheak1;
 	}
-	Orders() {};
+	OrderElements() {};
 };
 
 class OrderColector {
 public:
 	int anyNumber = 1;
 	int ordersSum = 0;
-	vector <Orders> orderColection;
-	void addOrder(Orders orders);
+	vector <OrderElements> orderColection;
+	void newOeder();
 	void ordersView();
 	void editionOrder();
 };

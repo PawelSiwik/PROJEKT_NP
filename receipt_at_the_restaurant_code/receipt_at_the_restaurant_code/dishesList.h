@@ -1,7 +1,7 @@
 #ifndef DISHESLIST_H
 #include <vector>
 #define DISHESLIST_H
-#define	 LICZBA_DAN 20
+
 using namespace std;
 
 class Dish
