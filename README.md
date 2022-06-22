@@ -1,26 +1,10 @@
 # Aplikacja Drukująca Paragony Fiskalne w Restauracji
 ## Paweł Siwik, Kacper Domian, Mateusz Skubiszak, Adam Rolbiecki
-### Harmonogram :
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+## Harmonogram :
+* Przygotowanie obiektów odpowiedzialnych za przechowywanie danych - 24.03.22 r.
+* Przygotowanie klas odpowiedzialnych za zapisywanie, edytowanie i drukowanie rachunków+testy jednostkowe - 21.04.22 r.
+* Przygotowanie interfejsu aplikacji - 08.05.22 r.
+* Dopracowanie szczegółów aplikacji, testowanie, eliminowanie błędów ewentualna rozbudowa - 19.05.22 r.
 
-## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
-## Setup
-To run this project, install it locally using npm:
-
-```
-$ cd ../lorem
-$ npm install
-$ npm
 
 
