@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Test
-      working-directory: ./name: Cmake
+      working-directory: ./receipt_at_the_restaurant_code
 
 on:
   push:
