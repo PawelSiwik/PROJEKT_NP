@@ -1,4 +1,5 @@
 # Aplikacja Drukująca Paragony Fiskalne w Restauracji
+## TEAM ZML
 ## Paweł Siwik, Kacper Domian, Mateusz Skubiszak, Adam Rolbiecki
 ## Harmonogram :
 * Przygotowanie obiektów odpowiedzialnych za przechowywanie danych - 24.03.22 r.
